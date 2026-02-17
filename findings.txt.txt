@@ -1,0 +1,25 @@
+EDA FINDINGS – Task 10
+
+1. Dataset Shape
+1000 rows and 8 columns.
+
+2. Missing Values
+No missing values found.
+
+3. Descriptive Statistics
+- Scores range between 0 and 100.
+- Math score shows moderate variation.
+
+4. Outlier Detection
+IQR method used.
+Few extreme values detected in math and reading scores.
+Outliers were capped instead of removed to avoid data loss.
+
+5. Correlation Insights
+- Math, Reading, and Writing scores are highly positively correlated.
+- Strong relationship between Reading and Writing scores.
+
+6. Conclusion
+Dataset is clean.
+Outliers handled using IQR capping.
+Ready for further modeling.
